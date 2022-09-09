@@ -1,0 +1,80 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    padding-top: 10rem;
+}
+.product-card {
+    display: flex;
+    justify-content: center;
+}
+.chanel-photo {
+    border-radius: 10px 10px 0 0;
+    height: 30rem;
+}
+button {
+    background-color: hsl(158, 36%, 37%);
+    padding: 1em 6rem;
+    border-radius: 8px;
+    border-style: none;
+    color: hsl(0, 0%, 100%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+.text {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Montserrat", sans-serif;
+    padding: 1rem 2rem 1rem 2rem;
+}
+h3 {
+    color: hsl(228, 12%, 48%);
+    margin-bottom: -2vh;
+    font-size: 1em;
+}
+h1 {
+    font-size: 2em;
+    font-family: Fraunces;
+    color: hsl(212, 21%, 14%);
+    line-height: 1em;
+}
+p {
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5rem;
+}
+.price-1 {
+    color: hsl(158, 36%, 37%);
+    font-size: 2em;
+    word-spacing: 1.5rem;
+    font-family: Fraunces;
+    margin: 1em;
+}
+.price-2 {
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    font-size: 1rem;
+    font-family: Fraunces;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    body {
+        margin: 1rem;
+        padding-top: 0;
+    }
+    .product-card {
+      display: flex;
+      flex-direction: column;
+    }
+    .chanel-photo {
+        height: 40vh;
+        object-fit: cover;
+    }
+    p {
+        margin-bottom: 0vh;
+    }
+    .price-1 {
+        margin: .5em;
+    }
+    button {
+        padding: .75em 5rem;
+    }
+}
+
