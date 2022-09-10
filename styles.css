@@ -14,7 +14,8 @@ body {
     max-width: 40rem;
 }
 .chanel-photo {
-    height: 30rem;
+    max-width: 100%;
+    height: 100%;
 }
 button {
     background-color: hsl(158, 36%, 37%);
@@ -61,17 +62,11 @@ p {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 576px) {
-    body {
-        margin: 1rem;
-        padding-top: 0;
-    }
     .product-card {
       display: flex;
       flex-direction: column;
     }
     .chanel-photo {
-        height: 40vh;
-        object-fit: cover;
     }
     p {
         margin-bottom: 0vh;
