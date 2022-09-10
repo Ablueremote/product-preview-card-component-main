@@ -19,12 +19,14 @@ body {
 }
 button {
     background-color: hsl(158, 36%, 37%);
-    padding: 1em 6rem;
+    min-width: 12rem;
+    min-height: 3rem;
     border-radius: 8px;
     border-style: none;
     color: hsl(0, 0%, 100%);
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
+    max-height: 2re
 }
 .text {
     background-color: hsl(0, 0%, 100%);
