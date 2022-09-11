@@ -23,8 +23,8 @@ Users should be able to:
 - See hover and focus states for interactive elements
 
 ### Screenshot
-![Desktop-Preview](preview-card-desktop.jpeg)
-![Mobile-Preview](preview-card-375mobile.png)
+![preview-card-375mobile](https://user-images.githubusercontent.com/95522156/189535589-85cadbe6-81e1-4ff5-a881-02c6c07dda80.png)
+![preview-card-desktop](https://user-images.githubusercontent.com/95522156/189535592-529387e0-79ee-44f8-b8d1-159ca703e40a.jpeg)
 
 ### Links
 - Solution URL: [https://github.com/Ablueremote/product-preview-card-component-main.git]
