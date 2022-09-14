@@ -9,12 +9,8 @@ body {
 .product-card {
     display: flex;
     justify-content: center;
-    border-radius: 10px;
     overflow: hidden;
     max-width: 40rem;
-}
-.img-container {
-    min-height: 5rem;
 }
 .chanel-photo {
     max-width: 100%;
@@ -29,7 +25,6 @@ button {
     color: hsl(0, 0%, 100%);
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    margin: 1rem;
 }
 .text {
     background-color: hsl(0, 0%, 100%);
@@ -57,7 +52,6 @@ p {
     font-size: 2em;
     word-spacing: 1.5rem;
     font-family: Fraunces;
-    margin: 1em;
 }
 .price-2 {
     color: hsl(228, 12%, 48%);
@@ -71,8 +65,11 @@ p {
       display: flex;
       flex-direction: column;
     }
-    .img-container {
-        max-height: 15rem;
+    .chanel-photo {
+    object-position: center;
+    object-fit: cover;
+    margin: -40% 0;
+    border-radius: 20px 0 0;
     }
     p {
         margin-bottom: 0vh;
